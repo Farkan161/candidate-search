@@ -12,9 +12,8 @@ dist
 dist-ssr
 *.local
 
-# Environment files
-.env
-environment/.env
+# .gitignore
+Develop/environment/.env
 
 # Editor directories and files
 .vscode/*
