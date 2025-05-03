@@ -15,7 +15,7 @@ const SavedCandidates: React.FC = () => {
 
   return (
     <div>
-      <h1>Potential candidates</h1>
+      <h1>Potential candidate</h1>
       <ul>
         {savedCandidates.map((candidate, index) => (
           <li key={index}>

@@ -12,7 +12,8 @@ dist
 dist-ssr
 *.local
 
-# .gitignore
+# Environment files
+.env
 Develop/environment/.env
 
 # Editor directories and files
