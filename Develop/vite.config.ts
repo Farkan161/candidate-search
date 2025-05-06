@@ -6,5 +6,10 @@ export default defineConfig({
   preview: {
     port: parseInt(process.env.PORT || '4173'),
     host: '0.0.0.0'
+  },
+  build: {
+    rollupOptions: {
+      input: '/index.html'
+    }
   }
 })
